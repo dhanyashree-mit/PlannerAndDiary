@@ -6,6 +6,11 @@ PlannerAndDiary is an Android app designed to help users plan their daily activi
 
 ## 🚀 Features
 
+## 🔐 Authentication Screens
+The app includes secure authentication using **Firebase Firestore**:
+- **Login** and **Register** pages
+- **Forgot Password** feature (sends reset link to registered email)
+
 ### 📊 Dashboard
 - Today's tasks at a glance
 - Quick search functionality
