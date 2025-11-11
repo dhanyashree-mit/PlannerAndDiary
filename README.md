@@ -14,7 +14,6 @@ The app includes secure authentication using **Firebase Firestore**:
 ### 📊 Dashboard
 - Today's tasks at a glance
 - Quick search functionality
-- Material Design 3 cards with elevation
 - Real-time task status updates
 - Guest mode support
 
@@ -52,9 +51,8 @@ The app includes secure authentication using **Firebase Firestore**:
   
 
 ### 🔔 Reminders
-- Set reminders for tasks
+
 - Toggle reminders on/off
-- Material Design switches
 - Notification integration
 
 ### 🎨 Personalization
