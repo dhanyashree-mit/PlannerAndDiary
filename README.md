@@ -55,8 +55,7 @@ PlannerAndDiary is an Android app designed to help users plan their daily activi
 ### 🎨 Personalization
 - Dark mode toggle
 - Custom background colors
-- Theme persistence
-- Material Design color picker
+
 
 ---
 
@@ -80,6 +79,12 @@ PlannerAndDiary is an Android app designed to help users plan their daily activi
 
 ## 📸 Screenshots
 
+| Login Screen | Register | Dashboard  | Task Planner| Diary |  Audio Diary | Dark Mode
+|--------------|----------|------------|-------------|-------|--------------|----------|
+| ![Login](login.jpg) | ![Register](register.jpg) | ![Dashboard](Dashboard.jpg) | ![Task].(task_planner.jpg) |  ![Diary].(Diary.jpg) |  ![Dark_Mode].(dark_mode.jpg)
+
+
+
 
 ---
 
@@ -88,9 +93,7 @@ PlannerAndDiary is an Android app designed to help users plan their daily activi
 ## 👩‍💻 Author
 
 **Dhanyashree Bhat**  
-*Student Developer | Tech Enthusiast | Bharatanatyam Dancer 💃*  
+
 
 ---
 
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
