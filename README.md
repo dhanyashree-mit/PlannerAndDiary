@@ -82,11 +82,12 @@ The app includes secure authentication using **Firebase Firestore**:
 
 ## 📸 Screenshots
 
-| Login Screen | Register | Dashboard  | Task Planner| Diary |  Audio Diary | Dark Mode | Habit Tracker | Reminder |
-|---------------------|---------------------------|-----------------------------------|---------------------------|----------------------|----------------------------|------------------------------|
-------------------------------------|----------------------------|
-| ![Login](Login.jpg) | ![Register](register.jpg) | ![Dashboard](smart_dashboard.jpg) | ![Task](task_planner.jpg) |  ![Diary](diary.jpg) | ![Audio](audio_diary.jpg)  | ![Dark_Mode](dark_mode.jpg) | 
-![Habit_tracker](habit_tracker.jpg) |  ![Reminder](reminders.jpg) |
+## 📸 Screenshots
+
+| Login Screen | Register | Dashboard | Task Planner | Diary | Audio Diary | Dark Mode | Habit Tracker | Reminder |
+|---------------|-----------|------------|---------------|--------|--------------|------------|----------------|-----------|
+| ![Login](Login.jpg) | ![Register](register.jpg) | ![Dashboard](smart_dashboard.jpg) | ![Task](task_planner.jpg) | ![Diary](diary.jpg) | ![Audio](audio_diary.jpg) | ![Dark Mode](dark_mode.jpg) | ![Habit Tracker](habit_tracker.jpg) | ![Reminder](reminders.jpg) |
+
 
 
 
