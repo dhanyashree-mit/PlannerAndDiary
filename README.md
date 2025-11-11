@@ -81,7 +81,7 @@ PlannerAndDiary is an Android app designed to help users plan their daily activi
 
 | Login Screen | Register | Dashboard  | Task Planner| Diary |  Audio Diary | Dark Mode | 
 |--------------|----------|------------|-------------|-------|--------------|----------|
-| ![Login](Login.jpg) | ![Register](register.jpg) | ![Dashboard](smart_dashboard.jpg) | ![Task](task_planner.jpg) |  ![Diary](Diary.jpg) | ![Audio](audio_diary.jpg)  | ![Dark_Mode](dark_mode.jpg)
+| ![Login](Login.jpg) | ![Register](register.jpg) | ![Dashboard](smart_dashboard.jpg) | ![Task](task_planner.jpg) |  ![Diary](diary.jpg) | ![Audio](audio_diary.jpg)  | ![Dark_Mode](dark_mode.jpg)
 
 
 
