@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/save_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@drawable/bottom_sheet_bg">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Enter title" android:textStyle="bold" android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" android:inputType="text" android:layout_marginTop="8dp"/>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="end"
+        android:layout_marginTop="14dp">
+
+        <Button android:id="@+id/btn_cancel" android:layout_width="wrap_content" android:backgroundTint="@color/blue"
+            android:layout_height="wrap_content" android:text="CANCEL"/>
+
+        <Button android:id="@+id/btn_store" android:layout_width="wrap_content" android:backgroundTint="@color/blue"
+            android:layout_height="wrap_content" android:text="SAVE" android:layout_marginStart="12dp"/>
+    </LinearLayout>
+</LinearLayout>

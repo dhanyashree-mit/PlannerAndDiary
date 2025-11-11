@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/share_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_bg"
+    android:padding="12dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Share as m4a" android:textStyle="bold"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center" android:layout_marginTop="10dp">
+
+        <ImageButton android:id="@+id/share_whatsapp" android:layout_width="56dp" android:layout_height="56dp"
+            android:src="@drawable/ic_whatsapp" android:background="@null"/>
+        <Space android:layout_width="18dp" android:layout_height="wrap_content"/>
+        <ImageButton android:id="@+id/share_instagram" android:layout_width="56dp" android:layout_height="56dp"
+            android:src="@drawable/ic_instagram" android:background="@null"/>
+        <Space android:layout_width="18dp" android:layout_height="wrap_content"/>
+        <ImageButton android:id="@+id/share_email" android:layout_width="56dp" android:layout_height="56dp"
+            android:src="@drawable/ic_email" android:background="@null"/>
+    </LinearLayout>
+</LinearLayout>

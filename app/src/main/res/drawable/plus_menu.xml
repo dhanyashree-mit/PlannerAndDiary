@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_task"
+        android:title="Add Task"
+        android:icon="@drawable/ic_add"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_modify_task"
+        android:title="Modify Task"
+        android:icon="@drawable/ic_edit"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_add_reminder"
+        android:title="Add Reminder"
+        android:icon="@drawable/ic_reminder"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_delete_task"
+        android:title="Delete Task"
+        android:icon="@drawable/ic_delete"
+        android:showAsAction="never" />
+</menu>
+

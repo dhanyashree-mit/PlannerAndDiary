@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- Optional if using external storage, but not needed for getExternalFilesDir() -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true">
+
+        <receiver
+            android:name=".ReminderReciever"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".TaskPlanner1"
+            android:exported="false" />
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegistrationSuccessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Onboarding"
+            android:exported="true" />
+        <activity
+            android:name=".DairyMain"
+            android:exported="true" />
+        <activity
+            android:name=".DiaryEditorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DailyDetailActivity"
+            android:exported="true" />
+
+        <!-- Habit Tracker module -->
+        <activity
+            android:name="com.example.myapplication.Habitracker1"
+            android:exported="true" />
+        <!-- Progress Analytics module -->
+        <activity
+            android:name="com.example.myapplication.ProgressAnalyticsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AudioMain"
+            android:exported="true" />
+        <activity
+            android:name=".DiaryAudioActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".RemindersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RemindersMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Personalization / Customization module -->
+        <activity
+            android:name="com.example.myapplication.CustomizationActivity"
+            android:exported="true" />
+         />
+
+    </application>
+
+</manifest>
